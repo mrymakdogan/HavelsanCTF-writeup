@@ -3,4 +3,4 @@
 Sorunun dosyası soru2.jpg dosyası :
 
 
-<img src=""/soru2.jpg>
+<img src="soru2.jpg">
