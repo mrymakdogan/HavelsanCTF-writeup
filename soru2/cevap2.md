@@ -5,6 +5,8 @@ Sorunun dosyası soru2.jpg dosyası :
 
 Jpg dosyasının sağ alt köşesinde bir **QR kod** bulunmaktadır.
 <img src="/resimler/qr.png">
-<br/>Bu **QR kod** okutulduğunda **900ec79a8304cb4494562fb4fc1b9562** elde edilmiştir. Elde edilen bu **MD5** hash **rockyou.txt** wordlist ile brute force edilmiştir.
-
-Böylece flag, **freeyourmind** olarak bulunmuştur.
+<br/>Bu **QR kod** okutulduğunda **900ec79a8304cb4494562fb4fc1b9562** elde edilmiştir. Elde edilen bu **MD5** hash bir dosyaya yazılır. 
+<img src="/resimler/hash.png">
+<br/>John aracına **rockyou.txt** wordlist verilerek brute force atack yoluyla flag elde edilmiştir.
+<img src="/resimler/john.png">
+<br/> Böylece flag, **freeyourmind** olarak bulunmuştur.
